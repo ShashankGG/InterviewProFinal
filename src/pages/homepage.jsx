@@ -4,7 +4,7 @@ import How from "../components/how";
 import How2 from "../components/how2";
 import Footer from "../components/footer";
 import Hero from "../components/hero";
-import Feedback from "../components/Feedback";
+import FeedbackHome from "../components/feedbackhome";
 function Homepage(){
     return(
         <>
@@ -12,7 +12,7 @@ function Homepage(){
         <Hero/>
         <How/>
         <How2/>
-        <Feedback/>
+        <FeedbackHome/>
         <Footer/>
         </>
     )

@@ -5,12 +5,13 @@ import { LiaLaptopCodeSolid } from "react-icons/lia";
 import { GoFileCode } from "react-icons/go";
 import { TbDatabaseCog } from "react-icons/tb";
 import { TbDeviceMobileCode } from "react-icons/tb";
+import bggif from "../assets/bggif.gif"
 
 function Hero() {
   return (
     <>
       <header>
-        <div className="w-full bg-center bg-cover h-[42rem]" style={{ backgroundImage: `url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg")` }}>
+        <div className="w-full bg-center bg-cover h-[42rem]" style={{  backgroundImage: `url(${bggif})` }}>
           <div className="flex items-center justify-center w-full h-full bg-gray-900/40">
             <div className="text-center h-[20rem]">
               <h2 className="m-8 font-semibold text-white lg:text-3xl">Welcome to InterviewPro </h2>
@@ -30,8 +31,8 @@ function Hero() {
         >
           <div className='ml-8 mt-2'>
             <LiaLaptopCodeSolid className='ml-2.5 h-20 w-20' />
-            <div class="">
-              <span class="text-2xl font-semibold text-[#09005F]">Frontend</span>
+            <div className="">
+              <span className="text-2xl font-semibold text-[#09005F]">Frontend</span>
             </div>
           </div>
         </article>
@@ -41,8 +42,8 @@ function Hero() {
         >
           <div className='ml-9 mt-2'>
             <GoFileCode className='mt-3 mb-3 ml-4 h-16 w-16' />
-            <div class="">
-              <span class="text-2xl font-semibold text-[#09005F]">Backend</span>
+            <div className="">
+              <span className="text-2xl font-semibold text-[#09005F]">Backend</span>
             </div>
           </div>
         </article>
@@ -52,8 +53,8 @@ function Hero() {
         >
           <div className='ml-8 mt-2'>
             <PiStack className='ml-5 h-16 w-16' />
-            <div class="mt-4">
-              <span class="text-2xl font-semibold text-[#09005F]">Full Stack</span>
+            <div className="mt-4">
+              <span className="text-2xl font-semibold text-[#09005F]">Full Stack</span>
             </div>
           </div>
         </article>
@@ -63,8 +64,8 @@ function Hero() {
         >
           <div className='ml-2 mt-2'>
             <TbDatabaseCog className='ml-10 h-16 w-16' />
-            <div class="mt-4">
-              <span class="text-2xl font-semibold text-[#09005F]">Data Science</span>
+            <div className="mt-4">
+              <span className="text-2xl font-semibold text-[#09005F]">Data Science</span>
             </div>
           </div>
         </article>
@@ -74,8 +75,8 @@ function Hero() {
         >
           <div className='ml-8 mt-2'>
             <TbDeviceMobileCode className='ml-4 h-16 w-16' />
-            <div class="mt-4">
-              <span class="text-2xl font-semibold text-[#09005F]">App Dev</span>
+            <div className="mt-4">
+              <span className="text-2xl font-semibold text-[#09005F]">App Dev</span>
             </div>
           </div>
         </article>

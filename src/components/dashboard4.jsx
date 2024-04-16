@@ -19,7 +19,7 @@ function Dashboard1() {
             <div class="flex items-center justify-between">
               <div class="flex items-center">
                 <a href="#">
-                  <h2 className="font-bold text-black text-xl">Dashboard</h2>
+                  <h2 className="ml-[1rem] font-bold text-black text-xl">Dashboard</h2>
                 </a>
 
                 <div class="hidden mx-10 md:block">

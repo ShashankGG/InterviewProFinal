@@ -14,12 +14,12 @@ function Dashboard1() {
         x-data="{ isOpen: false }"
         class="relative bg-white shadow dark:bg-white"
       >
-        <div class="container px-6 py-3 mx-auto">
-          <div class="flex flex-col md:flex-row md:justify-between md:items-center">
+        <div class="h-[10vh] p-2">
+          <div class="flex flex-col md:flex-row justify-between md:items-center">
             <div class="flex items-center justify-between">
               <div class="flex items-center">
                 <a href="#">
-                  <h2 className="font-bold text-black text-xl">Dashboard</h2>
+                  <h2 className="ml-[1rem] font-bold text-black text-xl">Dashboard</h2>
                 </a>
 
                 <div class="hidden mx-10 md:block">
