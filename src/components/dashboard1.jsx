@@ -283,7 +283,7 @@ function Dashboard1() {
                     Jane Doe
                   </h1>
                   <p class="text-sm text-gray-500 dark:text-gray-400">
-                    janedoe@exampl.com
+                    jandoe@exampl.com
                   </p>
                 </div>
               </a>
