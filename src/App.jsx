@@ -16,6 +16,9 @@ import ReqInterview2 from './components/reqInterview2';
 import ReqInterview3 from './components/reqInterview3';
 import ReqInterview4 from './components/reqInterview4';
 import Feedback from "./components/Feedback";
+import ReqInterview5 from './components/reqInterview5';
+import Preview1 from './components/preview1';
+import Preview2 from './components/preview2';
 
 
 function App() {
@@ -40,6 +43,9 @@ function App() {
           <Route path="/reqinterview3" element={<ReqInterview3 />} />
           <Route path="/reqinterview4" element={<ReqInterview4 />} />
           <Route path="/feedback" element={<Feedback />} />
+          <Route path="/reqinterview5" element={<ReqInterview5 />} />
+          <Route path="/preview1" element={<Preview1 />} />
+          <Route path="/preview2" element={<Preview2 />} />
 
         </Routes>
       </Router>

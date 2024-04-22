@@ -23,10 +23,101 @@ function reqInterview2() {
           </h1>
           <hr></hr>
 
-          <article class="ml-6 mr-6 mb-6 rounded-3xl bg-white p-4 ring ring-indigo-50 sm:p-6 lg:p-8 shadow-sm transition hover:shadow-lg sm:p-6">
-            <p class="mt-1 text-xl text-gray-700">0 years of experience</p>
+          <h4 className="ml-4 font-bold text-center text-2xl mt-[1.5rem] mb-[1.5rem] text-[#043C90]">
+            Strong Yes
+          </h4>
+
+          <article class="mb-4 rounded-xl bg-white p-4 ring ring-indigo-50  shadow-sm transition hover:shadow-lg">
+            <p class=" text-medium text-center text-[#032D6C]">
+              Strong and practical experience of using browser Storage with good
+              practical performance{" "}
+            </p>
           </article>
+
+          <article class="mb-4 rounded-xl bg-white p-4 ring ring-indigo-50  shadow-sm transition hover:shadow-lg">
+            <p class=" text-medium text-center text-[#032D6C]">
+              Strong knowlege of JavaScript fundamentals and also upto date with
+              latest feature{" "}
+            </p>
+          </article>
+
+          <article class="mb-4 rounded-xl bg-white p-4 ring ring-indigo-50  shadow-sm transition hover:shadow-lg">
+            <p class=" text-medium text-center text-[#032D6C]">
+              Strong knowledge of React Core Concept{" "}
+            </p>
+          </article>
+
+          <h4 className="ml-4 font-bold text-center text-2xl mt-[1.5rem] mb-[1.5rem] text-[#043C90]">
+            Yes
+          </h4>
+
+          <article class="mb-4 rounded-xl bg-white p-4 ring ring-indigo-50  shadow-sm transition hover:shadow-lg">
+            <p class=" text-medium text-center text-[#032D6C]">
+              Good experience of using browser Storage with good practical
+              performance
+            </p>
+          </article>
+
+          <article class="mb-4 rounded-xl bg-white p-4 ring ring-indigo-50  shadow-sm transition hover:shadow-lg">
+            <p class=" text-medium text-center text-[#032D6C]">
+              Good knowledge of React Core Concept
+            </p>
+          </article>
+
+          <article class="mb-4 rounded-xl bg-white p-4 ring ring-indigo-50  shadow-sm transition hover:shadow-lg">
+            <p class=" text-medium text-center text-[#032D6C]">
+              Good knowlege of JavaScript fundamentals and also upto date with
+              latest feature
+            </p>
+          </article>
+
+          <h4 className="ml-4 font-bold text-center text-2xl mt-[1.5rem] mb-[1.5rem] text-[#043C90]">
+            No
+          </h4>
+
+          <article class="mb-4 rounded-xl bg-white p-4 ring ring-indigo-50  shadow-sm transition hover:shadow-lg">
+            <p class=" text-medium text-center text-[#032D6C]">
+            Theoretical experience of using browser Storage with no practical performance  
+            </p>
+          </article>
+
+          <article class="mb-4 rounded-xl bg-white p-4 ring ring-indigo-50  shadow-sm transition hover:shadow-lg">
+            <p class=" text-medium text-center text-[#032D6C]">
+            Theoretical  knowlege of JavaScript fundamentals and less upto date with latest feature
+            </p>
+          </article>
+
+          <article class="mb-4 rounded-xl bg-white p-4 ring ring-indigo-50  shadow-sm transition hover:shadow-lg">
+            <p class=" text-medium text-center text-[#032D6C]">
+            Theoretical knowledge of React Core Concept
+            </p>
+          </article>
+
+          <h4 className="ml-4 font-bold text-center text-2xl mt-[1.5rem] mb-[1.5rem] text-[#043C90]">
+            Strong No
+          </h4>
+
+          <article class="mb-4 rounded-xl bg-white p-4 ring ring-indigo-50  shadow-sm transition hover:shadow-lg">
+            <p class=" text-medium text-center text-[#032D6C]">
+            No practical experience of using browser Storage 
+            </p>
+          </article>
+
+          <article class="mb-4 rounded-xl bg-white p-4 ring ring-indigo-50  shadow-sm transition hover:shadow-lg">
+            <p class=" text-medium text-center text-[#032D6C]">
+            No knowlege of JavaScript fundamentals
+            </p>
+          </article>
+
+          <article class="mb-4 rounded-xl bg-white p-4 ring ring-indigo-50  shadow-sm transition hover:shadow-lg">
+            <p class=" text-medium text-center text-[#032D6C]">
+            No knowledge of React Core Concept
+            </p>
+          </article>
+
         </div>
+
+        
 
         <button class="ml-[15rem] mt-2 mb-6 px-14 py-3 font-medium tracking-wide text-xl text-white capitalize transition-colors duration-300 transform bg-[#191064] rounded-full hover:bg-gray-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
           Add Candidate
