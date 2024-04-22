@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./dashboard.css";
 import { FcGoogle } from "react-icons/fc";
 import { SiTcs } from "react-icons/si";
@@ -6,8 +6,10 @@ import { SiSap } from "react-icons/si";
 import { MdDownload } from "react-icons/md";
 import { SiAccenture } from "react-icons/si";
 import { Link } from "react-router-dom";
+import ReqInterview1 from "./reqInterview1";
 
 function Dashboard1() {
+  const [isOpen,setIsOpen]= useState(false);
   return (
     <>
       <nav
@@ -604,7 +606,7 @@ function Dashboard1() {
                       </td>
 
                       <td class="px-4 py-4 text-sm whitespace-nowrap">
-                        <button class="px-12 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-[#191064] rounded-full hover:bg-gray-500 focus:outline-none focus:ring focus:ring-gray-300 focus:ring-opacity-80">
+                        <button class="px-12 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-[#191064] rounded-full hover:bg-gray-500 focus:outline-none focus:ring focus:ring-gray-300 focus:ring-opacity-80" onClick={()=> setIsOpen(true)}>
                           Generate Report
                         </button>
                       </td>
@@ -615,6 +617,16 @@ function Dashboard1() {
             </div>
           </div>
         </div>
+        {isOpen && (
+       <div>
+        <div>
+          <ReqInterview1/>
+        </div>
+        <button onClick={() => setIsOpen(false)}>
+          Close Pop-up
+        </button>
+       </div>
+      )}
       </section>
     </>
   );

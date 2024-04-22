@@ -1,12 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { PiStack } from "react-icons/pi";
 import { LiaLaptopCodeSolid } from "react-icons/lia";
 import { GoFileCode } from "react-icons/go";
 import { TbDatabaseCog } from "react-icons/tb";
 import { TbDeviceMobileCode } from "react-icons/tb";
 
-function reqInterview2() {
+function ReqInterview2() {
+  const navigate = useNavigate();
   return (
     <section>
       <div className="pl-[36rem] pr-[36rem] bg-white">
@@ -79,11 +80,12 @@ function reqInterview2() {
 
         
 
-        <button class="ml-[15rem] mt-2 mb-6 px-14 py-3 font-medium tracking-wide text-xl text-white capitalize transition-colors duration-300 transform bg-[#191064] rounded-full hover:bg-gray-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+        <button class="ml-[15rem] mt-2 mb-6 px-14 py-3 font-medium tracking-wide text-xl text-white capitalize transition-colors duration-300 transform bg-[#191064] rounded-full hover:bg-gray-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80"
+        onClick={()=>navigate("/reqinterview3")}>
           Next
         </button>
       </div>
     </section>
   );
 }
-export default reqInterview2;
+export default ReqInterview2;
