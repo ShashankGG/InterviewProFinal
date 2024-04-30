@@ -11,6 +11,7 @@ import Dashboard2 from './components/dashboard2';
 import Dashboard3 from './components/dashboard3';
 import Dashboard4 from './components/dashboard4';
 import Dashboard5 from './components/dashboard5';
+import Dashboard6 from './components/dashboard6';
 import ReqInterview1 from './components/reqInterview1';
 import ReqInterview2 from './components/reqInterview2';
 import ReqInterview3 from './components/reqInterview3';
@@ -40,6 +41,7 @@ function App() {
           <Route path="/dashboard3" element={<Dashboard3 />} />
           <Route path="/dashboard4" element={<Dashboard4 />} />
           <Route path="/dashboard5" element={<Dashboard5 />} />
+          <Route path="/dashboard6" element={<Dashboard6 />} />
           <Route path="/reqinterview" element={<ReqInterview1 />} />
           <Route path="/reqinterview2" element={<ReqInterview2 />} />
           <Route path="/reqinterview3" element={<ReqInterview3 />} />
