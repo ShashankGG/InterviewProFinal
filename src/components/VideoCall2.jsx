@@ -8,7 +8,7 @@ import { CiSettings } from "react-icons/ci";
 import { FaPlay } from "react-icons/fa";
 import { BsFullscreen } from "react-icons/bs";
 
-function VideoCall1() {
+function VideoCall2() {
   return (
     <>
       <nav
@@ -176,4 +176,4 @@ function VideoCall1() {
   );
 }
 
-export default VideoCall1;
+export default VideoCall2;

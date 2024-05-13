@@ -21,6 +21,7 @@ import ReqInterview5 from './components/reqInterview5';
 import Preview1 from './components/preview1';
 import Preview2 from './components/preview2';
 import VideoCall1 from './components/VideoCall1';
+import VideoCall2 from './components/VideoCall2';
 import CodeEditorWindow from './components/CodeEditor';
 
 
@@ -51,6 +52,7 @@ function App() {
           <Route path="/preview1" element={<Preview1 />} />
           <Route path="/preview2" element={<Preview2 />} />
           <Route path='/video1' element={<VideoCall1/>}/>
+          <Route path='/video2' element={<VideoCall2/>}/>
           <Route path='/video' element={<CodeEditorWindow/>}/>
 
         </Routes>

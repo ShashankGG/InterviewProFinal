@@ -156,7 +156,7 @@ function Login3(){
   
                 <div className="col-span-6">
                   <label
-                    htmlFor="Password"
+                    htmlFor="text"
                     className="block text-sm font-medium text-gray-700"
                   >
                     {" "}
@@ -164,9 +164,9 @@ function Login3(){
                   </label>
   
                   <input
-                    type="password"
-                    id="Password"
-                    name="password"
+                    type="text"
+                    id="Contact"
+                    name="Contact"
                     className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
                   />
                 </div>
@@ -181,9 +181,9 @@ function Login3(){
                   </label>
   
                   <input
-                    type="password"
-                    id="Password"
-                    name="password"
+                    type="text"
+                    id="Organization"
+                    name="Organization"
                     className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
                   />
                 </div>
@@ -198,9 +198,9 @@ function Login3(){
                   </label>
   
                   <input
-                    type="password"
-                    id="Password"
-                    name="password"
+                    type="text"
+                    id="Experience"
+                    name="Experience"
                     className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
                   />
                 </div>
