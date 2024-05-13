@@ -37,9 +37,7 @@ function Navbar() {
               <ul className="flex items-center gap-20 text-sm">
                 <li>
                   <Link
-                    className={`text-[#09005F] text-lg transition-colors duration-300 ${
-                      isScrolled ? "text-white" : ""
-                    }`}
+                    className={`text-[#09005F] text-lg transition-colors duration-300 `}
                     to="/"
                   >
                     About
@@ -47,9 +45,7 @@ function Navbar() {
                 </li>
                 <li>
                   <Link
-                    className={`text-[#09005F] text-lg transition-colors duration-300 ${
-                      isScrolled ? "text-white" : ""
-                    }`}
+                    className={`text-[#09005F] text-lg transition-colors duration-300`}
                     to="/pricing"
                   >
                     Pricing
@@ -57,9 +53,7 @@ function Navbar() {
                 </li>
                 <li>
                   <Link
-                    className={`text-[#09005F] text-lg transition-colors duration-300 ${
-                      isScrolled ? "text-white" : ""
-                    }`}
+                    className={`text-[#09005F] text-lg transition-colors duration-300 `}
                     to="/login1"
                   >
                     Feedback
@@ -67,9 +61,7 @@ function Navbar() {
                 </li>
                 <li>
                   <Link
-                    className={`text-[#09005F] text-lg transition-colors duration-300 ${
-                      isScrolled ? "text-white" : ""
-                    }`}
+                    className={`text-[#09005F] text-lg transition-colors duration-300`}
                     to="/login2"
                   >
                     Contact Us
@@ -81,18 +73,14 @@ function Navbar() {
           <div className="flex items-center gap-4">
             <div className="sm:flex sm:gap-4">
               <Link
-                className={`rounded-xl bg-[#09005F] px-5 py-2.5 text-sm font-medium text-white shadow transition-colors duration-300 ${
-                  isScrolled ? "bg-gray-600" : ""
-                }`}
-                to="#"
+                className={`rounded-xl bg-[#09005F] px-5 py-2.5 text-sm font-medium text-white shadow transition-colors duration-300`}
+                to="/"
               >
                 Login
               </Link>
               <div className="hidden sm:flex">
                 <Link
-                  className={`rounded-xl bg-[#09005F] px-5 py-2.5 text-sm font-medium text-white transition-colors duration-300 ${
-                    isScrolled ? "bg-gray-600" : ""
-                  }`}
+                  className={`rounded-xl bg-[#09005F] px-5 py-2.5 text-sm font-medium text-white transition-colors duration-300`}
                   to="#"
                 >
                   Sign Up
