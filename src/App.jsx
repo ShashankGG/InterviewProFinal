@@ -31,6 +31,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Homepage/>} />
+          <Route path="/home" element={<Homepage/>} />
           <Route path="/login" element={<LoginPage/>} />
           <Route path="/pricing" element={<Pricingpage />} />
           <Route path="/login1" element={<Login/>} />
@@ -44,7 +45,7 @@ function App() {
           <Route path="/dashboard5" element={<Dashboard5 />} />
           <Route path="/dashboard6" element={<Dashboard6 />} />
           <Route path="/reqinterview" element={<ReqInterview1 />} />
-          <Route path="/reqinterview2" element={<ReqInterview2 />y} />
+          <Route path="/reqinterview2" element={<ReqInterview2 />} />
           <Route path="/reqinterview3" element={<ReqInterview3 />} />
           <Route path="/reqinterview4" element={<ReqInterview4 />} />
           <Route path="/feedback" element={<Feedback />} />

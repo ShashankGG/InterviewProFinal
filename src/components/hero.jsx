@@ -18,7 +18,7 @@ function Hero() {
               <h1 className="m-8 font-semibold text-white lg:text-6xl">Elevate Your Hiring Journey <br />
                 with Expert Interview Support!</h1>
               <Link to="/signprimary">
-              <button className="w-full px-20 py-3 mt-4 text-sm font-medium text-[#09005F] capitalize transition-colors duration-300 transform bg-white lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">Choose the role</button>
+              <button className="w-full px-20 py-3 mt-4 text-sm font-large text-[#09005F] capitalize transition-colors duration-300 transform bg-white lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">Choose the role</button>
               </Link>
             </div>
           </div>

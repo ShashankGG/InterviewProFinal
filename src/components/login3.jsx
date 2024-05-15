@@ -44,7 +44,7 @@ function Login3(){
               </div>
               
               <h2 className="mt-0 text-2xl font-bold text-[#09005F] sm:text-3xl md:text-4xl">
-                Sign Up as a Interviewer
+                Sign up as an Interviewer
               </h2>
   
               <h2 className="mt-6 text-lg font-bold text-black sm:text-3xl md:text-4xl">
