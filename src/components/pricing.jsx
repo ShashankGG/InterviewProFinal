@@ -64,7 +64,9 @@ function Pricing() {
               </div>
             </div>
           </div>
-          <button className="primary signup">Sign Up Now</button>
+          <a href="/signprimary" class="primary signup">
+            <button>Sign Up</button>
+          </a>
         </div>
         <div className="plan">
           <div className="content">
@@ -122,16 +124,18 @@ function Pricing() {
               </div>
             </div>
           </div>
-          <button className="primary signup">Sign Up Now</button>
+          <a href="/signprimary" class="primary signup">
+            <button>Sign Up</button>
+          </a>
         </div>
         <div className="plan">
           <div className="content">
             <div>
               <p className="plan-type">Startups</p>
               <p className="plan-desc">
-              Interviewers from product companies
-that are well versed with multiple
-skills.
+                Interviewers from product companies
+                that are well versed with multiple
+                skills.
               </p>
             </div>
             <img
@@ -179,16 +183,18 @@ skills.
               </div>
             </div>
           </div>
-          <button className="primary signup">Sign Up Now</button>
+          <a href="/signprimary" class="primary signup">
+            <button>Sign Up</button>
+          </a>
         </div>
         <div className="plan">
           <div className="content">
             <div>
               <p className="plan-type">IT Services</p>
               <p className="plan-desc">
-              Interviewers used to the IT Services
-work and have trained themselves by
-working on different projects .
+                Interviewers used to the IT Services
+                work and have trained themselves by
+                working on different projects .
               </p>
             </div>
             <img
@@ -238,7 +244,9 @@ working on different projects .
               </div>
             </div>
           </div>
-          <button className="primary signup">Sign Up Now</button>
+          <a href="/signprimary" class="primary signup">
+            <button>Sign Up</button>
+          </a>
         </div>
       </div>
     </section>

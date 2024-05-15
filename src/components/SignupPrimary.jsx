@@ -8,7 +8,7 @@ function SignupPrimary() {
       <div>
         <h3 class="mt-4 text-[#032D6C]-3xl font-bold sm:text-5xl">
           {" "}
-          How do you wish to avail out services{" "}
+          How do you wish to avail our services{" "}
         </h3>
 
         <p class="mt-1 text-2xl text-[#043C90]-700 text-center">
@@ -30,16 +30,16 @@ function SignupPrimary() {
             </div>
           </div>
 
-          <div>
-            <h3 class="mt-4 text-[#032D6C]-3xl font-bold sm:text-4xl">
-              {" "}
-              I am a tech professional and want to become an interviewer{" "}
-            </h3>
-
-            <p class="mt-1 text-xl text-gray-700">
-              I want to take interviews and money.
-            </p>
-          </div>
+          <a href="/login3">
+            <div>
+              <h3 class="mt-4 text-[#032D6C]-3xl font-bold sm:text-4xl">
+                I am a tech professional and want to become an interviewer
+              </h3>
+              <p class="mt-1 text-xl text-gray-700">
+                I want to take interviews and money.
+              </p>
+            </div>
+          </a>
         </div>
       </article>
 
@@ -57,17 +57,19 @@ function SignupPrimary() {
             </div>
           </div>
 
-          <div>
-            <h3 class="mt-4 text-[#032D6C] text-3xl font-bold sm:text-4xl">
-              {" "}
-              I am an organisation and want to outsource my interviews{" "}
-            </h3>
+          <a href="/login2">
+            <div>
+              <h3 class="mt-4 text-[#032D6C] text-3xl font-bold sm:text-4xl">
+                {" "}
+                I am an organisation and want to outsource my interviews{" "}
+              </h3>
 
-            <p class="mt-1 text-xl text-gray-700">
-              As an organisation I want to explore your hiring solutions and get
-              my candidates interviewed
-            </p>
-          </div>
+              <p class="mt-1 text-xl text-gray-700">
+                As an organisation I want to explore your hiring solutions and get
+                my candidates interviewed
+              </p>
+            </div>
+          </a>
         </div>
       </article>
 
@@ -85,16 +87,18 @@ function SignupPrimary() {
             </div>
           </div>
 
-          <div>
-            <h3 class="mt-4 text-[#032D6C]-3xl font-bold sm:text-4xl">
-              {" "}
-              I am a candidate and want to give interviews to big companies{" "}
-            </h3>
+          <a href="/login1">
+            <div>
+              <h3 class="mt-4 text-[#032D6C]-3xl font-bold sm:text-4xl">
+                {" "}
+                I am a candidate and want to give interviews to big companies{" "}
+              </h3>
 
-            <p class="mt-1 text-xl text-gray-700">
-              I want real interview experience with industry experts
-            </p>
-          </div>
+              <p class="mt-1 text-xl text-gray-700">
+                I want real interview experience with industry experts
+              </p>
+            </div>
+          </a>
         </div>
       </article>
 
@@ -103,7 +107,7 @@ function SignupPrimary() {
       <div>
         <p class="mt-1 text-2xl text-[#043C90]-700">
           Already have an account?{" "}
-          <span class="font-bold text-[#043C90]-700">Login</span>
+          <a class="font-bold text-[#043C90]-700" href="/login1">Login</a>
         </p>
       </div>
     </section>
