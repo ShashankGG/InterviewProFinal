@@ -27,9 +27,6 @@ function About() {
             </p>
 
             <div class="mt-6 md:mt-8">
-              <h3 class="font-medium text-gray-600 dark:text-gray-300 ">
-                Follow us
-              </h3>
 
               <div class="flex mt-4 -mx-1.5 ">
               <FaPhoneVolume className="text-white h-6 w-6 mx-[1rem]"/>  
