@@ -1,5 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Homepage from './pages/homepage';
+import AboutUs from './pages/aboutus';
+import ContactUs from './pages/contactus';
 import Pricingpage from './pages/pricingpage';
 import Login from './components/login';
 import LoginPage from './pages/LoginPage';
@@ -55,6 +57,8 @@ function App() {
           <Route path='/video1' element={<VideoCall1/>}/>
           <Route path='/video2' element={<VideoCall2/>}/>
           <Route path='/video' element={<CodeEditorWindow/>}/>
+          <Route path='/about' element={<AboutUs/>}/>
+          <Route path='/contact' element={<ContactUs/>}/>
 
         </Routes>
       </Router>
