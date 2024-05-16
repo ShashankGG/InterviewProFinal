@@ -38,7 +38,7 @@ function Navbar() {
                 <li>
                   <Link
                     className={`text-[#09005F] text-lg transition-colors duration-300 `}
-                    to="/"
+                    to="/about"
                   >
                     About
                   </Link>
@@ -51,18 +51,18 @@ function Navbar() {
                     Pricing
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link
                     className={`text-[#09005F] text-lg transition-colors duration-300 `}
                     to="/login1"
                   >
                     Feedback
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <Link
                     className={`text-[#09005F] text-lg transition-colors duration-300`}
-                    to="/login2"
+                    to="/contact"
                   >
                     Contact Us
                   </Link>

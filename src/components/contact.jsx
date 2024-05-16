@@ -11,7 +11,7 @@ function About() {
         Contact Us
       </h2>
 
-      <h3 className="my-[1.5rem] text-xl text-center font-semibold text-[#717171] my-auto">
+      <h3 className="my-[1.5rem] text-xl text-center font-semibold text-[#717171]">
       Any question or remarks? Just write us a message!
           </h3>
 

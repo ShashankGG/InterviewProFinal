@@ -26,7 +26,7 @@ function Footer(){
             </li>
 
             <li>
-              <a href="#" className="text-white transition hover:opacity-75">info@school.edu</a>
+              <a href="#" className="text-white transition hover:opacity-75">info@interviewpro.com</a>
             </li>
 
             <li>
@@ -44,24 +44,21 @@ function Footer(){
 
           <ul className="mt-10 space-y-4 text-sm">
             <li>
-              <a href="#" className="text-white transition hover:opacity-75"> About Our Work </a>
+              <a href="/about" className="text-white transition hover:opacity-75"> About </a>
             </li>
 
             <li>
-              <a href="#" className="text-white transition hover:opacity-75"> Pricing </a>
+              <a href="/pricing" className="text-white transition hover:opacity-75"> Pricing </a>
             </li>
 
             <li>
               <a href="#" className="text-white transition hover:opacity-75"> Feedback </a>
             </li>
 
-            <li>
-              <a href="#" className="text-white transition hover:opacity-75"> About </a>
-            </li>
           </ul>
         </div>
 
-        <div>
+        {/* <div>
           <p className="text-xl text-white">Solutions</p>
 
           <ul className="mt-10 space-y-4 text-sm">
@@ -81,11 +78,11 @@ function Footer(){
               <a href="#" className="text-white transition hover:opacity-75"> Coding School </a>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </div>
 
-    <p className="text-xs text-white">&copy; 2022. Company Name. All rights reserved.</p>
+    <p className="text-xs text-white">&copy; 2022. Interview Pro. All rights reserved.</p>
   </div>
 </footer>
     )
